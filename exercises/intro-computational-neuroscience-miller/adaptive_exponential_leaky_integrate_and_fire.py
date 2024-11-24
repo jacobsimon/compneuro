@@ -53,7 +53,7 @@ b = 60e-9                 # Adaptation strength (A)
 I0 = 0e-9                 # Baseline current (A)
 
 dt = 5e-7                 # Time-step in sec
-tmax = 1                  # Maximum time in sec
+tmax = .3                  # Maximum time in sec
 tvector = np.arange(0, tmax, dt)  # Vector of all the time points
 
 ton = 0                   # Time to switch on current step
